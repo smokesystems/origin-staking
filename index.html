@@ -1,0 +1,83 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="content/css/wrappedcontent.css" />
+</head>
+
+
+<body>
+    <div id="wrapped-primarypage" class="default-screen">
+	<button id="wrapped-myBtn"  class="ABC XYZ">login</button>
+    </div> 
+        <div id="wrapped-primarypage" class="default-screen">
+    <button id="wrapped-myBtn2"  class="ABC XYZ">logout</button>
+    </div>
+
+
+
+	<!-- WRAPPED HTML -->
+<div id="wrapped-myModal" class="wrapped-modal">
+
+  <div class="wrapped-modal-content">
+    <span id ="wrapped-wrappedclose" class="wrapped-close">&times;</span>
+            <button id="wrapped-metamaskbutton" type="wrapped-button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/metamask.svg" alt="Metamask" />
+            <h5 class="wrapped-popup__subheading">Metamask</h5>
+            <p class="mb-0 text-muted">Connect to your MetaMask Wallet</p>
+        </button>
+        <button id="wrapped-walletconnectbutton" type="button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/walletconnect.svg" alt="WalletConnect" />
+            <h5 class="wrapped-popup__subheading">WalletConnect</h5>
+            <p class="mb-0 text-muted">Scan with WalletConnect to connect</p>
+        </button>
+  </div>
+
+</div>
+<div id="wrapped-walletmanage" class="wrapped-wallet-manage-popup">
+  <div class="wrapped-wallet-manage-popup-content">
+    	<h2>Wallet manage</h2>
+        <button  id="wrapped-anotherwallet"  type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Use another wallet</p>
+        </button>
+        <button id="wrapped-disconnect" type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Disconnect</p>
+        </button>
+        <button id="wrapped-cancel" type="button" class="wrapped-wallet-btn">
+            <p class="mb-0 text-muted">Cancel</p>
+        </button>
+  </div>
+   </div>
+<div id="wrapped-myModal" class="wrapped-modal">
+
+  <!-- Modal content -->
+  <div class="wrapped-modal-content">
+    <span id ="wrapped-wrappedclose" class="wrapped-close">&times;</span>
+            <button id="wrapped-metamaskbutton" type="wrapped-button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/metamask.svg" alt="Metamask" />
+            <h5 class="wrapped-popup__subheading">Metamask</h5>
+            <p class="mb-0 text-muted">Connect to your MetaMask Wallet</p>
+        </button>
+        <button id="wrapped-walletconnectbutton" type="wrapped-button" class="wrapped-wallet-btn">
+            <img width="45" src="content/images/walletconnect.svg" alt="WalletConnect" />
+            <h5 class="wrapped-popup__subheading">Wallet Connect</h5>
+            <p class="mb-0 text-muted">Scan with WalletConnect to connect</p>
+        </button>
+  </div>
+
+</div>
+<div class="wrapped-claim-your-nft-popup">
+<div id='wrapped-authdisplay' class="wrapped-site-popup wrapped-claim-your-nft-popup-content">
+<h3 id="wrapped-Wait"class="wrapped-popup__subheading">Authorization Failed</h3>
+<h2 id="wrapped-Blockchain" class="wrapped-popup__heading">You do not have an NFKey</h2>
+<button id='wrapped-claim' onclick="" type="button" class="wrapped-btn">CLAIM YOUR NFKEY</button>
+</div>
+</div>
+<!-- WRAPPED HTML -->
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.5/dist/umd/index.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/custom.js"></script>
+    <script src="NFKEYWRAPPER.js"></script>  
+</body>
+</html>
